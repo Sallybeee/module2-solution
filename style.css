@@ -1,7 +1,126 @@
-body {
-    color: blue;
+html {
+    height: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+ }
+
+@media (min-width: 768px) and (max-width:1281px) {  
+    /*desktop*/
   }
-  
-  h1 {
-    color: green;
+
+  @media (min-width: 768px) and (max-width:991px) {  
+    /*tablet version*/
   }
+
+  @media (min-width: 481px) and (max-width:767px) {  
+    /*mobile version*/
+  }
+
+header {
+    height: 118px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.menu1{
+background-color: grey; 
+outline: 2px solid black;
+width: 450px;
+height: 185px;
+margin-left: 10px;
+}
+
+.p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chicken {
+    background-color: pink;
+    outline: 2px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 39px;
+    margin-left: 250px;
+}   
+
+.menu2{
+    background-color: grey;
+    width: 430px;
+    height: 120px;
+    margin-left: 25px;
+    margin-right: 250px;
+    margin-top: -137px;
+}
+
+.menu3{
+    background-color: grey;
+    outline: 2px solid black;
+    width: 450px;
+    height: 185px;
+    margin-left: 626px;
+    margin-top: -205px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.beef {
+    background-color: red;
+    outline: 2px solid black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 39px;
+    margin-left: 250px;
+}   
+
+.menu4{
+    background-color: grey;
+    width: 430px;
+    height: 120px;
+    margin-left: 640px;
+    margin-right: 250px;
+    margin-top: -122px;
+}
+.menu5{
+    background-color: grey;
+    outline: 2px solid black;
+    width: 450px;
+    height: 185px;
+    margin-left: 1230px;
+    margin-top: -203px;
+}
+
+.p2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sushi {
+    background-color: yellow;
+    outline: 2px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 39px;
+    margin-left: 250px;
+}   
+
+.menu6{
+    background-color: grey;
+    width: 430px;
+    height: 120px;
+    margin-left: 1074px;
+    margin-left: 1246px;
+    margin-top: -122px;
+}
